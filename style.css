@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  transition: 250ms;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #e74292;
+  font-size: 1.2rem;
+  transition: 500ms;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #eaf0f1;
+  color: black;
+  font-size: larger;
+}
